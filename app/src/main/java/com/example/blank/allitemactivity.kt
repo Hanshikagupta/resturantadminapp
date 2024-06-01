@@ -29,18 +29,13 @@ class allitemactivity : AppCompatActivity() {
         reteriveMenuItem()
 
 
-
-
-
-
-
         binding.backbutton.setOnClickListener{
             val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
         }
 
-    private fun reteriveMenuItem() {
+     private fun reteriveMenuItem() {
        database=FirebaseDatabase.getInstance()
        val foodref: DatabaseReference=database.reference.child("menu")
         //fetch data from database
