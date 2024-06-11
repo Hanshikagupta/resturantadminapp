@@ -73,7 +73,7 @@ class adminProfile : AppCompatActivity() {
                         var email = snapshot.child("email").getValue()
                         var password = snapshot.child("password").getValue()
                         var address = snapshot.child("nameOfResturante").getValue()
-                        var phone = snapshot.child("phone")?.getValue()
+                        var phone = snapshot.child("phone").getValue()
                         setDataToTextView(ownerName, email, password, address, phone)
                     }
                 }

@@ -40,10 +40,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, adminProfile::class.java)
             startActivity(intent)
         }
-        binding.createUser.setOnClickListener {
-            val intent = Intent(this, CreateUser::class.java)
-            startActivity(intent)
-        }
+
 
         binding.pendingOrderTextView.setOnClickListener {
             val intent = Intent(this, PendingOrder::class.java)
