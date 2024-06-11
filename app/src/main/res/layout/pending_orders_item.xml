@@ -46,19 +46,19 @@
                 android:text="Name Customer"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@+id/textView14"
+                app:layout_constraintBottom_toTopOf="@+id/totalPay"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/orderedFoodImage"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/totalPay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="10dp"
-                android:text="Quantity"
+                android:text="Total Pay"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -75,8 +75,8 @@
                 android:textColor="#53e88B"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@id/textView14"
-                app:layout_constraintStart_toEndOf="@id/textView14" />
+                app:layout_constraintBottom_toBottomOf="@id/totalPay"
+                app:layout_constraintStart_toEndOf="@id/totalPay" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/orderedAcceptButton"

@@ -80,6 +80,7 @@ class additem : AppCompatActivity() {
                     downloadUri->
                     //create new menu item
                     val newItem= allmenu(
+                        newitemKey,
                         foodName =foodname,
                         foodPrice = foodprice,
                         foodDescription =foodDescription,
